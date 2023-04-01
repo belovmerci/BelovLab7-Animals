@@ -36,7 +36,7 @@ namespace BelovLab7
     class Hay : Food
     {
         int hayFreshness;
-        public Hay(string name = "Fish", int hungrinessRestore = 10, int hayFreshness = 1000) : base(name, hungrinessRestore)
+        public Hay(string name = "Hay", int hungrinessRestore = 10, int hayFreshness = 1000) : base(name, hungrinessRestore)
         {
             this.hayFreshness = hayFreshness;
         }
